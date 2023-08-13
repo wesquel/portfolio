@@ -5,6 +5,9 @@ export const theme = {
   },
   fonts: {
     family: {
+      title: "Poppins, sans-serif",
+      body: "Lato, sans-serif",
+      signature: "Sacramento, sans-serif",
       default: "Open Sans, sans-serif",
       secondary: "'Montserrat', sans-serif",
     },
