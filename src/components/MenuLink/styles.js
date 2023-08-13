@@ -4,9 +4,10 @@ export const Container = styled.a`
   ${({ theme }) => css`
     ${theme}
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 0;
     position: relative;
+    color: #000000;
 
     &:hover {
       color: #004ee5;
