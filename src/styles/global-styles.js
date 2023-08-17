@@ -13,15 +13,28 @@ export const GlobalStyles = createGlobalStyle`
 
   .title {
     font-family: ${({ theme }) => theme.fonts.family.title};
+    font-size: 2.5rem;
   }
 
   .text {
     font-family: ${({ theme }) => theme.fonts.family.body};
   }
 
+  .columnTitle {
+    font-family: ${({ theme }) => theme.fonts.family.title};
+    font-size: 1em;
+  }
+
+  .columnDescription {
+    font-family: ${({ theme }) => theme.fonts.family.body};
+    font-size: 1em;
+    color: #B5B5C3;
+    font-weight: 20000;
+  }
+
   .signature {
     font-family: ${({ theme }) => theme.fonts.family.signature};
-    font-size: 2em;
+    font-size: 5em;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
@@ -29,6 +42,15 @@ export const GlobalStyles = createGlobalStyle`
 
   .bold {
     font-weight: 600;
+  }
+
+  .centeredText {
+    padding-left: 6.8rem;
+    padding-right: 6.8rem;
+  }
+
+  p {
+    margin: 0;
   }
   
 

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable prettier/prettier */
 //import Home from "./templates/App";
 import { NavBar } from "../../components/Navbar";
@@ -6,7 +7,8 @@ import { SectionContainer } from "../../components/SectionContainer";
 import { TextComponent } from "../../components/TextComponent";
 import { ImageUser } from "../../components/ImageUser";
 import { Signature } from "../../components/Signature";
-import { Colunas } from '../../components/Colunas';
+import { Columns } from '../../components/Columns';
+import { ProjectsTable } from '../../components/ProjectsTable';
 
 function Home() {
   const links = [
@@ -34,7 +36,7 @@ function Home() {
 
   return (
     <>
-        <SectionContainer>
+        <SectionContainer centered="true">
             <NavBar links={links}>children</NavBar>
 
             <TitleComponent>Desenvolvedor</TitleComponent>
@@ -66,8 +68,10 @@ function Home() {
 
             <TitleComponent>Projetos:</TitleComponent>
 
-        <Colunas/>
+        </SectionContainer>
 
+        <SectionContainer>
+        <ProjectsTable/>
         </SectionContainer>
     
         
