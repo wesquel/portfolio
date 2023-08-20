@@ -5,5 +5,6 @@ export const Container = styled.h2`
     ${theme}
 
     font-size: 1.0em;
+    margin-bottom: 2.5em;
   `}
 `;

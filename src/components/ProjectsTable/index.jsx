@@ -8,7 +8,7 @@ export const ProjectsTable = ({ children }) => {
   return (
     <Styled.Container>
       <Styled.Heading>
-        <Styled.Column>Projeto</Styled.Column>
+        <Styled.Column className="first-column">Projeto</Styled.Column>
         <Styled.Column>Status</Styled.Column>
         <Styled.Column>Tipo</Styled.Column>
         <Styled.Column>Data Inicial</Styled.Column>
