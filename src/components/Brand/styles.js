@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Brand = styled.div`
   ${() => css`
     position: absolute;
-    margin-left: -30px;
+    margin-left: -45px;
     display: flex;
     height: 2.5em;
     width: 2.5em;

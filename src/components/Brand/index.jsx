@@ -5,7 +5,7 @@ export const Brand = ({ brand }) => {
   return (
     <Styled.Brand>
       <div>
-        <img src={brand} />
+        <img src={brand} alt="java brand" />
       </div>
     </Styled.Brand>
   );
