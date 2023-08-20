@@ -9,6 +9,7 @@ import { ImageUser } from "../../components/ImageUser";
 import { Signature } from "../../components/Signature";
 import { ProjectsTable } from '../../components/ProjectsTable';
 import { ButtonTable } from '../../components/ButtonTable';
+import { Presentation } from '../../components/Presentation';
 
 function Home() {
   const links = [
@@ -39,9 +40,11 @@ function Home() {
         <SectionContainer centered="true">
             <NavBar  links={links}>children</NavBar>
 
-            <ImageUser text="imagem perfil" />
+            <Presentation>Weslley Addson - Desenvolvedor Backend Java</Presentation>
 
-            <Signature>Weslley Carvalho</Signature>
+            {/* <ImageUser text="imagem perfil" />
+
+            <Signature>Weslley Carvalho</Signature> */}
 
             <TextComponent>Eu sou um apaixonado desenvolvedor de 22 anos que mergulhou fundo no mundo da tecnologia. Ao longo da minha jornada, tenho me concentrado principalmente no desenvolvimento backend, com ênfase em tecnologias como Java, Spring e a orquestração eficaz de bancos de dados. No entanto, quero enfatizar que meu repertório é diversificado e não se limita somente ao backend.</TextComponent>
 
