@@ -7,8 +7,8 @@ import { SectionContainer } from "../../components/SectionContainer";
 import { TextComponent } from "../../components/TextComponent";
 import { ImageUser } from "../../components/ImageUser";
 import { Signature } from "../../components/Signature";
-import { Columns } from '../../components/Columns';
 import { ProjectsTable } from '../../components/ProjectsTable';
+import { ButtonTable } from '../../components/ButtonTable';
 
 function Home() {
   const links = [
@@ -37,9 +37,7 @@ function Home() {
   return (
     <>
         <SectionContainer centered="true">
-            <NavBar links={links}>children</NavBar>
-
-            <TitleComponent>Desenvolvedor</TitleComponent>
+            <NavBar  links={links}>children</NavBar>
 
             <ImageUser text="imagem perfil" />
 
@@ -50,11 +48,11 @@ function Home() {
             <TitleComponent>Meu Foco e Habilidades:</TitleComponent>
 
             <TextComponent>
-            <span className='bold'>Backend Afiado:</span> Minha jornada no desenvolvimento começou com o backend, onde meu domínio se estende ao Java e Spring. Construo sistemas backend eficientes e escaláveis, focando na performance e no código limpo.
+            <span className='bold'>Backend Afiado:</span> Minha jornada no desenvolvimento começou com o backend, onde meu domínio se estende ao Java e Spring. Tenho uma sólida experiência na construção de sistemas backend eficientes e escaláveis, utilizando as melhores práticas de desenvolvimento. Meu foco na performance se reflete na otimização cuidadosa de consultas de banco de dados e no uso eficiente de recursos do servidor. Além disso, tenho um compromisso inabalável com o código limpo, seguindo padrões de codificação rigorosos e mantendo um alto nível de legibilidade e manutenção em todos os meus projetos
             </TextComponent>
 
             <TextComponent>
-            <span className='bold'>Frontend Versátil:</span> Embora meu foco principal seja o backend, não sou um estranho no mundo frontend. Tenho habilidades sólidas em HTML, CSS e JavaScript, permitindo-me criar interfaces de usuário envolventes e responsivas.
+            <span className='bold'>Frontend Versátil:</span> Embora meu foco principal seja o backend, não sou um estranho no mundo frontend. Tenho habilidades sólidas em HTML, CSS e JavaScript, incluindo experiência em React, o que me permite criar interfaces de usuário envolventes e responsivas.
             </TextComponent>
 
             <TextComponent>
@@ -68,13 +66,13 @@ function Home() {
 
             <TitleComponent>Projetos:</TitleComponent>
 
+            <div  className='finaly'></div>
+
         </SectionContainer>
 
         <SectionContainer>
         <ProjectsTable/>
-        </SectionContainer>
-    
-        
+        </SectionContainer>       
 
     </>
   );
