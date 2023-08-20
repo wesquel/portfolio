@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle`
 
   .columnDescription {
     font-family: ${({ theme }) => theme.fonts.family.body};
-    font-size: 1em;
+    font-size: 0.8em;
     color: #B5B5C3;
     font-weight: 20000;
   }
@@ -40,13 +40,27 @@ export const GlobalStyles = createGlobalStyle`
     text-underline-offset: 2px;
   }
 
+  .column-title {
+    font-size: 1.1em;
+    color: #000000;
+  }
+
+  .column-sub {
+    font-size: 1.4em;
+    color: #B5B5C3;
+  }
+
   .bold {
     font-weight: 600;
   }
-
   .centeredText {
     padding-left: 6.8rem;
     padding-right: 6.8rem;
+  }
+
+  .finaly {
+    width: 1em;
+    height: 1em;
   }
 
   p {
