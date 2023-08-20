@@ -5,6 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     display: flex;
     width: 100%;
+    padding-bottom: 2em;
   `}
 `;
 
@@ -14,9 +15,16 @@ export const Heading = styled.div`
     background: #f3f6f9;
     align-items: center;
     justify-content: space-between;
-    padding-left: 6.8rem;
+    padding-left: 11.2rem;
     padding-right: 6.8rem;
-    height: 4.5em;
+    font-family: ${({ theme }) => theme.fonts.family.title};
+    font-size: 1.4em;
+    height: 3em;
+
+    .first-column {
+      position: relative;
+      left: -3em;
+    }
   `}
 `;
 
@@ -24,7 +32,7 @@ export const Content = styled.div`
   ${() => css`
     display: flex;
     flex-direction: column;
-    padding-left: 6.8rem;
+    padding-left: 11.2rem;
     padding-right: 6.8rem;
   `}
 `;

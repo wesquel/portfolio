@@ -6,6 +6,8 @@ export default [
     type: "Backend",
     initial_date: "28/05/2011",
     final_date: "28/05/2013",
+    link: "https://github.com/",
+    brand: "assets/images/logoJava.svg",
   },
   {
     title: "Projeto 2",
@@ -14,6 +16,8 @@ export default [
     type: "Frontend",
     initial_date: "28/05/2011",
     final_date: "28/05/2013",
+    link: "https://github.com/",
+    brand: "assets/images/logoPhp.svg",
   },
   {
     title: "Projeto 3",
@@ -22,6 +26,8 @@ export default [
     type: "Backend",
     initial_date: "28/05/2011",
     final_date: "28/05/2013",
+    link: "https://github.com/",
+    brand: "assets/images/logoJavaScript.svg",
   },
   {
     title: "Projeto 4",
@@ -30,5 +36,7 @@ export default [
     type: "Backend",
     initial_date: "28/05/2011",
     final_date: "28/05/2013",
+    link: "https://github.com/",
+    brand: "assets/images/logoJava.svg",
   },
 ];
