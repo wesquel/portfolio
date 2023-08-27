@@ -6,7 +6,10 @@ export const Container = styled.div`
       font-size: 2.3em;
       text-decoration: none;
       color: #272727;
-      font-family: ${({ theme }) => theme.fonts.family.body};
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    & :hover {
       text-shadow: #000 0.05em 0.05em 0.2em;
     }
   `}
