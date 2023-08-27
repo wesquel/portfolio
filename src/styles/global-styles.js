@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
 
   .title {
     font-family: ${({ theme }) => theme.fonts.family.title};
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .text {
@@ -54,11 +54,13 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 600;
   }
   .centeredText {
-    padding-left: 6.8rem;
-    padding-right: 6.8rem;
+    padding-left: 10.8rem;
+    padding-right: 10.8rem;
   }
 
   .finaly {
+    padding: 0;
+    margin: 0;
     width: 1em;
     height: 1em;
   }
@@ -66,12 +68,4 @@ export const GlobalStyles = createGlobalStyle`
   p {
     margin: 0;
   }
-  
-
-
-  /*
-  h1,h2,h3,h4,h5,h6 {
-    font-size: 4.5rem;
-    font-family: ${({ theme }) => theme.fonts.family.secondary};
-  } */
 `;

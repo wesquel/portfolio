@@ -1,11 +1,13 @@
 import * as Styled from "./styles";
 import { NavLink } from "../NavLink";
+import { NavTitle } from "../NavTitle";
 
 export const NavBar = ({ links = [] }) => {
   return (
-    <Styled.Container>
+    <Styled.Bar>
+      <NavTitle>Weslley Carvalho</NavTitle>
       <NavLink links={links} />
-    </Styled.Container>
+    </Styled.Bar>
   );
 };
 

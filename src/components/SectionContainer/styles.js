@@ -4,7 +4,7 @@ export const Container = styled.div`
   ${({ theme }) => css`
     ${theme}
     text-align: center;
-    max-width: 140rem;
+    max-width: 120rem;
 
     margin: 0 auto;
 

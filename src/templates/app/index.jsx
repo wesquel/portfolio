@@ -14,11 +14,6 @@ import { Presentation } from '../../components/Presentation';
 function Home() {
   const links = [
     {
-      children: "Inicio",
-      link: "#target1",
-      newTab: false,
-    },
-    {
       children: "Sobre min",
       link: "#target2",
       newTab: false,
@@ -40,7 +35,7 @@ function Home() {
         <SectionContainer centered="true">
             <NavBar  links={links}>children</NavBar>
 
-            <Presentation>Weslley Addson - Desenvolvedor Backend Java</Presentation>
+            <Presentation>Me chamo Weslley Carvalho</Presentation>
 
             {/* <ImageUser text="imagem perfil" />
 

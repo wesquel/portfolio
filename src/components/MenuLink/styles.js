@@ -8,6 +8,7 @@ export const Container = styled.a`
     padding: 0;
     position: relative;
     color: #000000;
+    margin: 0 1rem;
 
     &:hover {
       color: #004ee5;

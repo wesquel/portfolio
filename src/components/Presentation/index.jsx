@@ -3,10 +3,10 @@ import * as Styled from "./styles";
 
 export const Presentation = ({ children }) => {
   return (
-    <>
-      <Styled.Title>Olá 👋,</Styled.Title>
-      <Styled.Container>{children}</Styled.Container>
-    </>
+    <Styled.Container>
+      <Styled.Title>Olá 👋</Styled.Title>
+      <Styled.Presentation>{children}</Styled.Presentation>
+    </Styled.Container>
   );
 };
 
