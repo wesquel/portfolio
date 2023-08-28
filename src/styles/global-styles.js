@@ -41,12 +41,12 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .column-title {
-    font-size: 1.1em;
+    font-size: 0.8em;
     color: #000000;
   }
 
   .column-sub {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #B5B5C3;
   }
 
