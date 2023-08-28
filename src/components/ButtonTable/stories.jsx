@@ -1,13 +1,13 @@
-import { ButtonTable } from ".";
+import { ButtonTable } from '.';
 
 export default {
-  title: "ButtonTable",
+  title: 'ButtonTable',
   component: ButtonTable,
   args: {
-    children: "ButtonTable",
+    children: 'ButtonTable',
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 

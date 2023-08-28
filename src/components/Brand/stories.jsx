@@ -1,13 +1,13 @@
-import { Brand } from ".";
+import { Brand } from '.';
 
 export default {
-  title: "Brand",
+  title: 'Brand',
   component: Brand,
   args: {
-    brand: "assets/images/logoJava.svg",
+    brand: 'assets/images/logoJava.svg',
   },
   argTypes: {
-    brand: { type: "path" },
+    brand: { type: 'path' },
   },
 };
 

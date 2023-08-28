@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import P from "prop-types";
-import * as Styled from "./styles";
-import { Row } from "../Row";
-import projetos from "./projetos";
+import P from 'prop-types';
+import * as Styled from './styles';
+import { Row } from '../Row';
+import projetos from './projetos';
 
 export const ProjectsTable = ({ children }) => {
   return (

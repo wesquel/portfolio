@@ -1,13 +1,13 @@
-import { SectionContainer } from ".";
+import { SectionContainer } from '.';
 
 export default {
-  title: "SectionContainer",
+  title: 'SectionContainer',
   component: SectionContainer,
   args: {
-    children: "SectionContainer",
+    children: 'SectionContainer',
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 

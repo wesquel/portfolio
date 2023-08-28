@@ -1,13 +1,13 @@
-import { SectionBackground } from ".";
+import { SectionBackground } from '.';
 
 export default {
-  title: "SectionBackground",
+  title: 'SectionBackground',
   component: SectionBackground,
   args: {
-    children: "SectionBackground",
+    children: 'SectionBackground',
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 

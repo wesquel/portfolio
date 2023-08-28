@@ -1,6 +1,6 @@
-import * as Styled from "./styles";
-import { NavLink } from "../NavLink";
-import { NavTitle } from "../NavTitle";
+import * as Styled from './styles';
+import { NavLink } from '../NavLink';
+import { NavTitle } from '../NavTitle';
 
 export const NavBar = ({ links = [] }) => {
   return (

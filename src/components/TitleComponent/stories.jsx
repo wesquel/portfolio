@@ -1,13 +1,13 @@
-import { TitleComponent } from ".";
+import { TitleComponent } from '.';
 
 export default {
-  title: "TitleComponent",
+  title: 'TitleComponent',
   component: TitleComponent,
   args: {
-    children: "TitleComponent",
+    children: 'TitleComponent',
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 

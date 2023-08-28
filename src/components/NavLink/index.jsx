@@ -1,6 +1,6 @@
-import P from "prop-types";
-import * as Styled from "./styles";
-import { MenuLink } from "../MenuLink";
+import P from 'prop-types';
+import * as Styled from './styles';
+import { MenuLink } from '../MenuLink';
 
 export const NavLink = ({ links = [] }) => {
   return (

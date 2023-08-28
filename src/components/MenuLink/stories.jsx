@@ -1,13 +1,13 @@
-import { MenuLink } from ".";
+import { MenuLink } from '.';
 
 export default {
-  title: "MenuLink",
+  title: 'MenuLink',
   component: MenuLink,
   args: {
-    children: "MenuLink",
+    children: 'MenuLink',
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 

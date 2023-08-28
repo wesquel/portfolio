@@ -1,13 +1,13 @@
-import { ImageUser } from ".";
+import { ImageUser } from '.';
 
 export default {
-  title: "ImageUser",
+  title: 'ImageUser',
   component: ImageUser,
   args: {
-    children: "ImageUser",
+    children: 'ImageUser',
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 

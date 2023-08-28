@@ -1,19 +1,19 @@
-import { NavBar } from "../../components/Navbar";
-import { ResumeComponent } from "../../components/ResumeComponent";
-import { ResumeDescriptionComponent } from "../../components/ResumeDescriptionComponent";
-import { ResumeTitleComponent } from "../../components/ResumeTitleComponent";
-import { SectionContainer } from "../../components/SectionContainer";
+import { NavBar } from '../../components/Navbar';
+import { ResumeComponent } from '../../components/ResumeComponent';
+import { ResumeDescriptionComponent } from '../../components/ResumeDescriptionComponent';
+import { ResumeTitleComponent } from '../../components/ResumeTitleComponent';
+import { SectionContainer } from '../../components/SectionContainer';
 
 function Resume() {
   const links = [
     {
-      children: "Home",
-      link: "/",
+      children: 'Home',
+      link: '/',
       newTab: false,
     },
     {
-      children: "Curriculo",
-      link: "/resume",
+      children: 'Curriculo',
+      link: '/resume',
       newTab: false,
     },
   ];
@@ -24,12 +24,12 @@ function Resume() {
       <ResumeDescriptionComponent>Desenvolvedor Web</ResumeDescriptionComponent>
       <ResumeComponent title="Endereço 📍" italic={true}>
         <div className="containerText">
-          Campina Grande - PB{" "}
+          Campina Grande - PB{' '}
           <span>
             <img src="assets/images/paraiba.png"></img>
           </span>
           <p>
-            Brasil{"      "}
+            Brasil{'      '}
             <span>
               <img src="assets/images/Flag_of_Brazil.png"></img>
             </span>

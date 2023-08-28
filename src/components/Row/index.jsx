@@ -1,7 +1,7 @@
-import P from "prop-types";
-import * as Styled from "./styles";
-import { Brand } from "../Brand";
-import { ButtonTable } from "../ButtonTable";
+import P from 'prop-types';
+import * as Styled from './styles';
+import { Brand } from '../Brand';
+import { ButtonTable } from '../ButtonTable';
 
 export const Row = ({ dataRow }) => {
   return (

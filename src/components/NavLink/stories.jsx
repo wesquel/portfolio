@@ -1,7 +1,7 @@
-import { NavLink } from ".";
-import links from "./mock";
+import { NavLink } from '.';
+import links from './mock';
 export default {
-  title: "NavLink",
+  title: 'NavLink',
   component: NavLink,
   args: {
     links: links,

@@ -1,13 +1,13 @@
-import { NavBar } from ".";
-import links from "../NavLink/mock";
+import { NavBar } from '.';
+import links from '../NavLink/mock';
 export default {
-  title: "NavBar",
+  title: 'NavBar',
   component: NavBar,
   args: {
     links: links,
   },
   argTypes: {
-    children: { type: "string" },
+    children: { type: 'string' },
   },
 };
 
