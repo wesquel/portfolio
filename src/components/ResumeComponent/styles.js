@@ -43,5 +43,16 @@ export const Container = styled.div`
     & img {
       width: 1.5%;
     }
+
+    .date-intern {
+      margin-top: 5px;
+      margin-left: 14px;
+    }
+    & a {
+      color: #0000ee;
+    }
+    .final-div {
+      padding-bottom: 3em;
+    }
   `}
 `;
