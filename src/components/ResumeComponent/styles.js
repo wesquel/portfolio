@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${() => css`
@@ -18,7 +18,7 @@ export const Container = styled.div`
 
     & .containerText {
       background: #f3f6f9;
-      font-family: "Courier New", Courier, monospace;
+      font-family: 'Courier New', Courier, monospace;
       border-left: 2px solid #7b7b7b;
       padding: 5px 1em;
       margin-top: 10px;
@@ -30,7 +30,7 @@ export const Container = styled.div`
 
     .date {
       color: #7b7b7b;
-      font-family: "Times New Roman", Times, serif;
+      font-family: 'Times New Roman', Times, serif;
       font-size: 1.2em;
     }
 
