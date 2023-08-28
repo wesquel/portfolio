@@ -5,5 +5,6 @@ export const Bar = styled.header`
     display: flex;
     justify-content: space-between;
     padding-top: 1em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   `}
 `;

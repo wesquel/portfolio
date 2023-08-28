@@ -10,6 +10,8 @@ export const theme = {
       signature: "Sacramento, sans-serif",
       default: "Open Sans, sans-serif",
       secondary: "'Montserrat', sans-serif",
+      titleMenu: "'Orbitron', sans-serif",
+      body2: "'Roboto', sans-serif",
     },
     sizes: {
       xsmall: "0.8rem",
