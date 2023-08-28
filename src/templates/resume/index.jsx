@@ -7,18 +7,13 @@ import { SectionContainer } from "../../components/SectionContainer";
 function Resume() {
   const links = [
     {
-      children: "Sobre min",
-      link: "#target2",
+      children: "Home",
+      link: "/",
       newTab: false,
     },
     {
-      children: "Habilidades",
-      link: "#target3",
-      newTab: false,
-    },
-    {
-      children: "Projetos",
-      link: "#target4",
+      children: "Curriculo",
+      link: "/resume",
       newTab: false,
     },
   ];
