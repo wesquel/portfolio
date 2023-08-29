@@ -1,7 +1,7 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-    ${() => css`
-        margin-bottom: 1em;
-    `}
+  ${() => css`
+    margin-bottom: 1em;
+  `}
 `;

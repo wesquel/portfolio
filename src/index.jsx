@@ -15,16 +15,16 @@ let content;
 
 // Define o conteúdo com base na rota atual
 if (currentRoute === '/resume') {
-    content = <Resume />;
+  content = <Resume />;
 } else {
-    content = <Home />;
+  content = <Home />;
 }
 
 root.render(
-    <React.StrictMode>
-        <ThemeProvider theme={theme}>
-            {content}
-            <GlobalStyles />
-        </ThemeProvider>
-    </React.StrictMode>,
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      {content}
+      <GlobalStyles />
+    </ThemeProvider>
+  </React.StrictMode>,
 );
