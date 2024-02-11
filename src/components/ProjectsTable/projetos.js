@@ -27,7 +27,7 @@ export default [
     initial_date: "04/2022",
     final_date: "12/2022",
     link: "https://github.com/wesquel/SIAAE",
-    brand: "assets/images/logoJavaScript.svg",
+    brand: "assets/images/logoPhp.svg",
   },
   {
     title: "Geren. de restaurantes",
