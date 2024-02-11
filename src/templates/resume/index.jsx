@@ -110,9 +110,9 @@ function Resume() {
         <div>
           <h3>Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - IFPB</h3>
           <p className="containerText">
-            <a href="assets/images/historico.png" target="blank">
+
               Bacharelado em Engenharia da Computação
-            </a>
+
           </p>
           <p className="date date-intern">01/2019 - 12/2023 - FINALIZADO</p>
           <p className="containerText">
