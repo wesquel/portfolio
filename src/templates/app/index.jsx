@@ -32,9 +32,9 @@ function Home() {
 
         <TextComponent>
           Eu sou um apaixonado desenvolvedor de 22 anos que mergulhou fundo no mundo da tecnologia. Ao longo da minha
-          jornada, tenho me concentrado principalmente no desenvolvimento backend, com ênfase em tecnologias como Java,
+          jornada, tenho me concentrado principalmente no desenvolvimento back-end, com ênfase em tecnologias como Java,
           Spring e a orquestração eficaz de bancos de dados. No entanto, quero enfatizar que meu repertório é
-          diversificado e não se limita somente ao backend.
+          diversificado e não se limita somente ao back-end.
         </TextComponent>
 
         <TitleComponent>Meu Foco e Habilidades:</TitleComponent>
