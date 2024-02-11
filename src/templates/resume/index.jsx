@@ -72,11 +72,29 @@ function Resume() {
       </ResumeComponent>
       <ResumeComponent title="Experiência ⌛">
         <div>
-          <h3>Desenvolvedor Backend Java - IFPB</h3>
-          <p className="date">03/2023 - Em andamento</p>
+          <h3>Desenvolvedor de sistemas - Pacto Mais</h3>
+          <p className="date">01/2024 - Em andamento</p>
           <p className="containerText">
-            Atualmente, estou trabalhando em um projeto do IFPB como desenvolvedor backend, utilizando Java, Spring,
-            Banco de Dados MySQL e utilizando a ferramenta Trello para organização de tarefas.
+            Atualmente, atuo como desenvolvedor back-end e sou responsável por resolver os desafios da empresa em diversas áreas. 
+            Utilizo minhas habilidades de comunicação e expertise em linguagens como Java, Python e PHP para desenvolver soluções eficazes. 
+            Além disso, faço uso dos serviços da AWS, como EC2 e S3, para gerenciamento de servidores. 
+            Também desempenho um papel na administração do banco de dados, assegurando sua integridade e performance.
+          </p>
+        </div>
+        <div>
+          <h3>Estágiario em desenvolvimento de sistemas - Pacto Mais</h3>
+          <p className="date">08/2023 - 12/2023</p>
+          <p className="containerText">
+            Desenvolvedor, onde aplico meu conhecimento abrangente para aprimorar os sistemas da empresa. 
+            Minha abordagem centrada na excelência técnica e inovação visa contribuir significativamente para o crescimento e eficiência dos projetos em que estou envolvido.
+          </p>
+        </div>
+        <div>
+          <h3>Desenvolvedor Backend Java - IFPB</h3>
+          <p className="date">03/2023 - 12/2023</p>
+          <p className="containerText">
+            Atuei, como desenvolvedor backend, utilizando Java, Spring e Banco de Dados MySQL. Utilizando Trello para organização de tarefas.
+            O Projeto ganhou o primeiro lugar no 5º Simpósio de Pesquisa, Inovação e Pós-Graduação.
           </p>
         </div>
         <div>
@@ -96,7 +114,7 @@ function Resume() {
               Bacharelado em Engenharia da Computação
             </a>
           </p>
-          <p className="date date-intern">01/2019 - Em andamento</p>
+          <p className="date date-intern">01/2019 - 12/2023 - FINALIZADO</p>
           <p className="containerText">
             <a href="assets/certificate/git.pdf" target="_blank">
               Minicurso - Uso de Git e Github para controle de versão de projetos de software
@@ -167,7 +185,7 @@ function Resume() {
 
         <div className="final-div">
           <h3>Sistemas</h3>
-          <p className="containerText">VSCode, IntelliJ IDEA, Pycharm, Jupyter Notebook, Github, Windwons, Linux</p>
+          <p className="containerText">VSCode, IntelliJ IDEA, Pycharm, Jupyter Notebook, Git, Github, Windowns, Linux</p>
         </div>
       </ResumeComponent>
     </SectionContainer>
