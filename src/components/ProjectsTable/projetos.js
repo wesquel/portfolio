@@ -40,7 +40,7 @@ export default [
     brand: "assets/images/logoPhp.svg",
   },
   {
-    title: "Api de Controle de Estacionamento",
+    title: "Controle Estacionamento",
     description: "Java, Spring",
     status: "Finalizado",
     type: "Back-end",
