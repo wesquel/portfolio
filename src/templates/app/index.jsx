@@ -40,8 +40,8 @@ function Home() {
         <TitleComponent>Meu Foco e Habilidades:</TitleComponent>
 
         <TextComponent>
-          <span className="bold">Backend Afiado:</span> Minha jornada no desenvolvimento começou com o backend, onde meu
-          domínio se estende ao Java e Spring. Tenho uma sólida experiência na construção de sistemas backend eficientes
+          <span className="bold">Back-end Afiado:</span> Minha jornada no desenvolvimento começou com o back-end, onde meu
+          domínio se estende ao Java e Spring. Tenho uma sólida experiência na construção de sistemas back-end eficientes
           e escaláveis, utilizando as melhores práticas de desenvolvimento. Meu foco na performance se reflete na
           otimização cuidadosa de consultas de banco de dados e no uso eficiente de recursos do servidor. Além disso,
           tenho um compromisso inabalável com o código limpo, seguindo padrões de codificação rigorosos e mantendo um
@@ -49,8 +49,8 @@ function Home() {
         </TextComponent>
 
         <TextComponent>
-          <span className="bold">Frontend Versátil:</span> Embora meu foco principal seja o backend, não sou um estranho
-          no mundo frontend. Tenho habilidades sólidas em HTML, CSS e JavaScript, incluindo experiência em React, o que
+          <span className="bold">Front-end Versátil:</span> Embora meu foco principal seja o back-end, não sou um estranho
+          no mundo front-end. Tenho habilidades sólidas em HTML, CSS e JavaScript, incluindo experiência em React, o que
           me permite criar interfaces de usuário envolventes e responsivas.
         </TextComponent>
 
