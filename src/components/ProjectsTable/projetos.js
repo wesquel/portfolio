@@ -16,7 +16,7 @@ export default [
     type: "Back-end",
     initial_date: "04/2023",
     final_date: "12/2023",
-    link: "https://github.com/wesquel/Water-Monitor/commits/main/water_server",
+    link: "https://github.com/wesquel/Water-Monitor/tree/main/water_server",
     brand: "assets/images/logoJava.svg",
   },
   {
