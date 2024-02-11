@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Serviço de Autenticação Spring",
+    title: "Serv. autenticação Spring",
     description: "Java, Spring",
     status: "Finalizado",
     type: "Back-end",
@@ -10,7 +10,7 @@ export default [
     brand: "assets/images/logoJava.svg",
   },
   {
-    title: "Gerenciamneto da Água com MQTT",
+    title: "Moni. Água com MQTT",
     description: "Java, Spring",
     status: "Finalizado",
     type: "Back-end",
