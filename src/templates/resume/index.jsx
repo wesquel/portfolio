@@ -64,10 +64,9 @@ function Resume() {
           diversos projetos durante minha formação e, sempre que possível, busco desenvolver projetos pessoais com
           tecnologias que ainda desconheço.
           <br />
-          <br /> Estou atualmente em busca de minha primeira oportunidade de emprego na área, confiante de que tenho
-          todas as habilidades necessárias para atuar com sucesso. Minha paixão pela tecnologia e minha disposição para
-          aprender continuamente impulsionam minha jornada profissional, e estou ansioso para as oportunidades e
-          desafios que o futuro reserva.
+          <br />
+          Minha paixão pela tecnologia e minha disposição para aprender continuamente impulsionam minha jornada profissional, 
+          e estou ansioso para as oportunidades e desafios que o futuro reserva.
         </p>
       </ResumeComponent>
       <ResumeComponent title="Experiência ⌛">
